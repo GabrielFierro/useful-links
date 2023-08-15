@@ -29,7 +29,7 @@ export default function Button({ categories, handleClick }) {
     );
   });
   return (
-    <div className='w-full flex flex-row justify-evenly items-center'>
+    <div className='flex items-center space-x-4 overflow-y-auto md:max-w-lg xl:max-w-5xl 2xl:max-w-7xl lg:max-w-3xl whitespace-nowrap'>
       {texts}
     </div>
   );
