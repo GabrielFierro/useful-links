@@ -17,7 +17,7 @@ export default function Category() {
 
   return (
     <section>
-      <article className='w-full h-16 flex flex-row justify-between'>
+      <article className='mt-12 md:flex md:items-center md:justify-center md:space-x-8'>
         <Text categories={categories} handleClick={filter} />
       </article>
       <article className='px-12 mt-16'>
