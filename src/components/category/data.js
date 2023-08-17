@@ -123,5 +123,12 @@ export const data = [
     title: 'Color Hunt',
     description: 'Discover the newest hand-picked palettes of Color Hunt.',
     url: 'https://colorhunt.co/'
+  },
+  {
+    category: 'Background',
+    src: 'https://wweb.dev/preview/preview_IF4o7Ga9O.jpg',
+    title: 'Websites For Creative Backgrounds',
+    description: 'A huge collection of websites with backgrounds.',
+    url: 'https://wweb.dev/resources/creative-backgrounds'
   }
 ];
