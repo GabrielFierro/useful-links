@@ -5,8 +5,7 @@ export const data = [
     title: 'AllThingsAi',
     description:
       'Find human-tested reviews of the most useful AI-powered software',
-    url: 'https://allthingsai.com/',
-    date: '18 de Agosto del 2023'
+    url: 'https://allthingsai.com/'
   },
   {
     category: 'Courses',
@@ -14,8 +13,7 @@ export const data = [
     title: 'The UI/UX Crash Course for 2023 - Learn UI/UX Design',
     description:
       "You're going to a lot about UI/UX design, along with many of the features and workflows of Figma. From UI design fundamentals such as colors, typography, white space, contrast, color, visual hierarchy & more.",
-    url: 'https://youtu.be/7iobxzd_2wY',
-    date: '18 de Agosto del 2023'
+    url: 'https://youtu.be/7iobxzd_2wY'
   },
   {
     category: 'Courses',
@@ -23,8 +21,7 @@ export const data = [
     title: 'LenguajeCSS',
     description:
       'CSS es un lenguaje de estilos para dotar de apariencia y aspecto visual a una página o sitio web (entre otras cosas). También es conocido como el mayor enemigo de los programadores backend. En esta página te ayudo a aprender a dominarlo.',
-    url: 'https://lenguajecss.com/',
-    date: '18 de Agosto del 2023'
+    url: 'https://lenguajecss.com/'
   },
   {
     category: 'Courses',
@@ -33,8 +30,7 @@ export const data = [
       'Curso de React [2023]: De cero hasta crear tus primeros componentes con estado',
     description:
       'Curso de React desde cero. ¿Qué es? ¿Por qué deberías aprenderlo? ¿Cómo crear tu primera aplicación? Todo lo que necesitas saber para empezar lo tienes en este vídeo.',
-    url: 'https://www.youtube.com/watch?v=7iobxzd_2wY',
-    date: '18 de Agosto del 2023'
+    url: 'https://www.youtube.com/watch?v=7iobxzd_2wY'
   },
   {
     category: 'Courses',
@@ -42,8 +38,7 @@ export const data = [
     title: 'Aprende JavaScript',
     description:
       'Curso para aprender paso a paso JavaScript. 100% gratis y práctico. Desde cero.',
-    url: 'https://www.aprendejavascript.dev/',
-    date: '18 de Agosto del 2023'
+    url: 'https://www.aprendejavascript.dev/'
   },
   {
     category: 'Courses',
@@ -51,8 +46,7 @@ export const data = [
     title: 'JavaScript Algorithms and Data Structures',
     description:
       "In the JavaScript Algorithm and Data Structures Certification, you'll learn the fundamentals of JavaScript including variables, arrays, objects, loops, and functions.",
-    url: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/',
-    date: '18 de Agosto del 2023'
+    url: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/'
   },
   {
     category: 'Deploy',
@@ -60,8 +54,7 @@ export const data = [
     title: 'Vercel',
     description:
       "Vercel's frontend cloud gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized Web",
-    url: 'https://vercel.com/',
-    date: '18 de Agosto del 2023'
+    url: 'https://vercel.com/'
   },
   {
     category: 'Deploy',
@@ -69,16 +62,14 @@ export const data = [
     title: 'Netlify',
     description:
       'Netlify is the modern web development platform for Enterprises to realize the full potential of a scalable, customizable web architecture.',
-    url: 'https://www.netlify.com/',
-    date: '18 de Agosto del 2023'
+    url: 'https://www.netlify.com/'
   },
   {
     category: 'HTML',
     src: 'https://cdn.glitch.me/19f7087b-7781-4727-9c59-2100bafabbf2%2Ffront.png?v=1638616243086',
     title: 'Can Include',
     description: 'CAN I INCLUDE one TAG to ANOTHER?',
-    url: 'https://caninclude.glitch.me/',
-    date: '18 de Agosto del 2023'
+    url: 'https://caninclude.glitch.me/'
   },
   {
     category: 'Images',
@@ -86,8 +77,7 @@ export const data = [
     title: 'Pexels',
     description:
       'Las mejores fotos de stock gratis, imágenes libres de regalías y vídeos compartidos por creadores.',
-    url: 'https://www.pexels.com/es-es/',
-    date: '18 de Agosto del 2023'
+    url: 'https://www.pexels.com/es-es/'
   },
   {
     category: 'Images',
@@ -95,16 +85,14 @@ export const data = [
     title: 'Unsplash',
     description:
       'La fuente de imágenes de internet. Con recursos de creadores de todo el mundo.',
-    url: 'https://unsplash.com/es',
-    date: '18 de Agosto del 2023'
+    url: 'https://unsplash.com/es'
   },
   {
     category: 'Images',
     src: 'https://i.ibb.co/QJmZ2H1/lorem-picsum.png',
     title: 'Lorem Picsum',
     description: 'The Lorem Ipsum for photos.',
-    url: 'https://picsum.photos/',
-    date: '18 de Agosto del 2023'
+    url: 'https://picsum.photos/'
   },
   {
     category: 'API',
@@ -112,8 +100,7 @@ export const data = [
     title: 'Public APIs in GitHub',
     description:
       'A collective list of free APIs for use in software and web development.',
-    url: 'https://github.com/public-apis/public-apis',
-    date: '18 de Agosto del 2023'
+    url: 'https://github.com/public-apis/public-apis'
   },
   {
     category: 'Color',
@@ -121,23 +108,20 @@ export const data = [
     title: 'Coolors',
     description:
       'Create the perfect palette or get inspired by thousands of beautiful color schemes.',
-    url: 'https://coolors.co/',
-    date: '18 de Agosto del 2023'
+    url: 'https://coolors.co/'
   },
   {
     category: 'Color',
     src: 'https://i.ibb.co/6FJMgVg/colorchecker.png',
     title: 'Color Contrast Checker by Coolors',
     description: 'Calculate the contrast ratio of text and background colors.',
-    url: 'https://coolors.co/contrast-checker/000000-c3a9e0',
-    date: '18 de Agosto del 2023'
+    url: 'https://coolors.co/contrast-checker/000000-c3a9e0'
   },
   {
     category: 'Color',
     src: 'https://colorhunt.co/img/color-hunt-og.png',
     title: 'Color Hunt',
     description: 'Discover the newest hand-picked palettes of Color Hunt.',
-    url: 'https://colorhunt.co/',
-    date: '18 de Agosto del 2023'
+    url: 'https://colorhunt.co/'
   }
 ];
