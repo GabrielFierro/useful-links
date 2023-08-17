@@ -2,25 +2,21 @@ export default function Card({ allCards }) {
   const cards = allCards.map((card) => {
     return (
       <article
-        key={card.id}
+        key={card.url}
         className='bg-white rounded-lg border shadow-md max-w-xs md:max-w-none overflow-hidden'
       >
         <img
-          className='h-56 lg:h-60 w-full object-cover'
+          className='h-56 lg:h-60 w-full object-cover cursor-pointer'
           src={card.src}
           alt={card.title}
         />
         <div className='p-3'>
-          <span className='text-sm text-primary'>November 19, 2022</span>
+          <span className='text-sm text-primary'>{card.date}</span>
           <h3 className='font-semibold text-xl leading-6 text-gray-700 my-2'>
-            International Women&apos;s Day 2022: Date, history, significance,
-            theme this year
+            {card.title}
           </h3>
-          <p className='paragraph-normal text-gray-600'>
-            Happy Women&apos;s Day 2022: Read on to know all about the history
-            and significance...
-          </p>
-          <a className='mt-3 block' href='#'>
+          <p className='paragraph-normal text-gray-600'>{card.description}</p>
+          <a className='mt-3 block underline' href={card.url} target='_blank'>
             Read More
           </a>
         </div>
