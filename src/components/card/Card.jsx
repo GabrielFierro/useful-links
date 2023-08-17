@@ -6,7 +6,7 @@ export default function Card({ allCards }) {
         className='bg-white rounded-lg border shadow-md max-w-xs md:max-w-none overflow-hidden'
       >
         <img
-          className='h-56 lg:h-60 w-full object-cover cursor-pointer'
+          className='h-56 lg:h-60 w-full object-cover'
           src={card.src}
           alt={card.title}
         />
