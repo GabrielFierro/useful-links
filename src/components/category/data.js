@@ -130,5 +130,94 @@ export const data = [
     title: 'Websites For Creative Backgrounds',
     description: 'A huge collection of websites with backgrounds.',
     url: 'https://wweb.dev/resources/creative-backgrounds'
+  },
+  {
+    category: 'Box-shadow',
+    src: 'https://getcssscan.com/css-box-shadow-examples/og-image.jpg',
+    title: 'Beautiful CSS box-shadow examples',
+    description:
+      "All of these box-shadow were copied using CSS Scan. With CSS Scan you can easily inspect or copy any website's CSS.",
+    url: 'https://getcssscan.com/css-box-shadow-examples'
+  },
+  {
+    category: 'Box-shadow',
+    src: 'https://manuarora.in/boxshadows.png',
+    title: 'Box shadows for TailwindCSS',
+    description:
+      'A curated list of box shadows for TailwindCSS. Available in JIT 🚀 and vanilla CSS',
+    url: 'https://manuarora.in/boxshadows'
+  },
+  {
+    category: 'Button',
+    src: 'https://getcssscan.com/css-buttons-examples/og-image.jpg',
+    title: 'Beautiful CSS buttons examples',
+    description:
+      "All of these box-shadow were copied using CSS Scan. With CSS Scan you can easily inspect or copy any website's CSS.",
+    url: 'https://getcssscan.com/css-buttons-examples'
+  },
+  {
+    category: 'Tutorial',
+    src: 'http://img.youtube.com/vi/nxoHR9lltK0/maxresdefault.jpg',
+    title: 'Multiple Typing Text Animation in HTML CSS & JavaScript',
+    description:
+      'In this video tutorial, you will learn to create Multiple Typing Text Animations using HTML CSS, and JavaScript. Actually, text changes automatically with beautiful animation.',
+    url: 'https://www.youtube.com/watch?v=nxoHR9lltK0'
+  },
+  {
+    category: 'Tutorial',
+    src: 'https://i.ibb.co/fHkxCpL/framer-motion.jpg',
+    title: 'Reveal Animation with React & Framer Motion',
+    description:
+      "Let's make a reusable reveal animation, triggered on scroll, using React and Framer Motion!",
+    url: 'https://www.youtube.com/watch?v=hjbxaYTMhy0'
+  },
+
+  {
+    category: 'Framework/Library',
+    src: 'https://tailwindcss.com/_next/static/media/social-card-large.a6e71726.jpg',
+    title: 'Tailwind CSS',
+    description:
+      'A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.',
+    url: 'https://tailwindcss.com/'
+  },
+  {
+    category: 'Framework/Library',
+    src: 'https://chakra-ui.com/og-image.png',
+    title: 'Chakra UI',
+    description:
+      'Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.',
+    url: 'https://chakra-ui.com/'
+  },
+  {
+    category: 'Framework/Library',
+    src: 'https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-social.png',
+    title: 'Bootstrap',
+    description:
+      'Build fast, responsive sites with Bootstrap. Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.',
+    url: 'https://getbootstrap.com/'
+  },
+  {
+    category: 'Git',
+    src: 'https://res.cloudinary.com/practicaldev/image/fetch/s--Ro4Jku6o--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o99cbex9moaplpmor05z.png',
+    title: 'How to Undo Pushed Commits with Git',
+    description:
+      'One major benefit of version control is that you can roll back your code to any time in history without significantly disrupting your teammates...',
+    url: 'https://dev.to/github/how-to-undo-pushed-commits-with-git-2pe6'
+  },
+  {
+    category: 'GitHub',
+    src: 'https://res.cloudinary.com/practicaldev/image/fetch/s--FkXNTU8f--/c_imagga_scale,f_auto,fl_progressive,h_420,q_66,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yj1il4ebo0e3cmy4803h.gif',
+    title: 'Awesome Badges for Readme file',
+    description:
+      'Build fast, responsive sites with Bootstrap. Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.',
+    url: 'https://dev.to/envoy_/150-badges-for-github-pnk'
+  },
+  {
+    category: 'GitHub',
+    src: 'https://i.ibb.co/QbdrYQf/githubprofilereadmegenerator.png',
+    title: 'GitHub Profile README Generator',
+    description:
+      '🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.',
+    url: 'https://rahuldkjain.github.io/gh-profile-readme-generator/'
   }
 ];
