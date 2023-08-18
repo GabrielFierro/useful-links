@@ -219,5 +219,36 @@ export const data = [
     description:
       '🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.',
     url: 'https://rahuldkjain.github.io/gh-profile-readme-generator/'
+  },
+  {
+    category: 'Tools',
+    src: 'https://www.iloveimg.com/img/iloveimg/social/en-US/cropimage.jpg',
+    title: 'Crop Image',
+    description:
+      'Crop JPG, PNG or GIF by defining a rectangle in pixels. Cut your image online.',
+    url: 'https://www.iloveimg.com/crop-image'
+  },
+  {
+    category: 'Tools',
+    src: 'https://www.iloveimg.com/img/iloveimg/social/en-US/resizeimage.jpg',
+    title: 'Resize Image',
+    description:
+      'Resize JPG, PNG, SVG or GIF by defining new height and width pixels. Change image dimensions in bulk.',
+    url: 'https://www.iloveimg.com/resize-image'
+  },
+  {
+    category: 'Tools',
+    src: 'https://www.iloveimg.com/img/iloveimg/social/en-US/compressimage.jpg',
+    title: 'Compress Image',
+    description:
+      'Compress JPG, PNG, SVG or GIF with the best quality and compression. Reduce the filesize of your images at once.',
+    url: 'https://www.iloveimg.com/compress-image'
+  },
+  {
+    category: 'Tools',
+    src: 'https://i.ibb.co/tCPcwfp/convertio.png',
+    title: 'Conversor PNG a WEBP',
+    description: 'Convierta sus archivos png a webp en línea y gratis.',
+    url: 'https://convertio.co/es/png-webp/'
   }
 ];
