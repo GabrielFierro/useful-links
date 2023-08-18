@@ -10,7 +10,7 @@ export default function Card({ allCards }) {
           src={card.src}
           alt={card.title}
         />
-        <div className='p-3'>
+        <div className='py-4 px-6'>
           <span className='text-sm text-primary'>{card.date}</span>
           <h3 className='font-semibold text-xl leading-6 text-gray-700 my-2'>
             {card.title}
