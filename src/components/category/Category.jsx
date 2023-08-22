@@ -4,15 +4,31 @@ import Text from './Text';
 import Card from '../card/Card';
 
 export default function Category() {
-  const [card, setCard] = useState(data);
-  const categories = ['All', ...new Set(data.map((card) => card.category))];
+  const sortedCards = data.sort((a, b) => {
+    let fa = a.category.toLowerCase(),
+      fb = b.category.toLowerCase();
+
+    if (fa < fb) {
+      return -1;
+    }
+    if (fa > fb) {
+      return 1;
+    }
+    return 0;
+  });
+
+  const [card, setCard] = useState(sortedCards);
+  const categories = [
+    'All',
+    ...new Set(sortedCards.map((card) => card.category))
+  ];
 
   const filter = (cat) => {
     if (cat === 'All') {
-      setCard(data);
+      setCard(sortedCards);
       return;
     }
-    setCard(data.filter((item) => item.category === cat));
+    setCard(sortedCards.filter((item) => item.category === cat));
   };
 
   return (
