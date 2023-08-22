@@ -1,5 +1,18 @@
 export default function Card({ allCards }) {
-  const cards = allCards.map((card) => {
+  let sortedCards = allCards.sort((currentCard, nextCard) => {
+    let cc = currentCard.category.toLowerCase(),
+      nc = nextCard.category.toLowerCase();
+
+    if (cc < nc) {
+      return -1;
+    }
+    if (cc > nc) {
+      return 1;
+    }
+    return 0;
+  });
+
+  const cards = sortedCards.map((card) => {
     return (
       <article
         key={card.url}
